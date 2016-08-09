@@ -195,7 +195,7 @@ html .btn, body .btn {
 .section {
     /*section properties*/
     position: relative;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 30px;
     background-color: transparent; }
 .section .section-title {
