@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to my Blog!"
 date:   2016-08-09 09:56:57
 categories: blog
-image: /images/pilot.jpg
+image: "/images/pilot.jpg"
 description: "Corny blog launch post"
 ---
 It only took me a quarter of a century! I have been meaning to claim my own piece 
