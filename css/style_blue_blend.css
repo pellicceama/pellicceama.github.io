@@ -559,7 +559,7 @@ html .btn, body .btn {
     overflow: visible;
     width: 100%;
     height: auto;
-    top: 140px; }
+    top: 115px; }
 #home .header-background #v-card-holder #v-card {
     /*v-card with fixed 400px height*/
     position: relative;
@@ -780,7 +780,7 @@ html .btn, body .btn {
 /*about section*/
 #about {
     /*profile about*/
-    margin-top: 120px; }
+    margin-top: 130px; }
 #about .about-btn {
     /*about buttons*/
     height: auto;
