@@ -12,7 +12,7 @@
           {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
           <div class="blog {% if thecycle == 'odd' %}odd{% else %}even{% endif %}">
             <div class="image">
-              <img alt="blog-image" src={{ post.image }}/>
+              <img alt="blog-image" src={{ post.image }}>
               <div class="image-overlay"></div>
             </div>
             <div class="content">
