@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On leaving Coinfloor"
-date:   2016-08-08 11:36:54
+date:   2016-08-18 11:36:54
 categories: blog
 image: images/coinfloor_logo.png
 description: "My reasoning for leaving Coinfloor and going back to school."
