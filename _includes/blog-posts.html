@@ -8,7 +8,7 @@
       <div class="col-md-12 col-sm-12">
         <div class="card">
 
-          {% for post in site.posts %}
+          {% for post in site.posts reversed %}
           {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
           <div class="blog {% if thecycle == 'odd' %}odd{% else %}even{% endif %}">
             <div class="image">
