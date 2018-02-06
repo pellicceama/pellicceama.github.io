@@ -4,7 +4,7 @@ title:  "On leaving Coinfloor"
 date:   2016-08-18 11:36:54
 categories: blog
 image: images/coinfloor_logo.png
-description: "My reasoning for leaving Coinfloor and going back to school."
+description: "My reasoning for taking a step back from Coinfloor."
 ---
 
 ![post-image]
