@@ -2,30 +2,15 @@
   <div class="container">
     <!-- SECTION TITLE -->
     <div class="section-title">
-      <h4 class="text-uppercase text-center"><i class="title-icon fa fa-pencil-square"></i>Blog</h4>
+      <h4 class="text-uppercase"><i class="title-icon fa fa-pencil-square"></i>Posts</h4>
     </div>
-    <div id="blog-card" class="row">
-      <div class="col-md-12 col-sm-12">
-        <div class="card">
-
+      <ul>
           {% for post in site.posts %}
           {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-          <div class="blog {% if thecycle == 'odd' %}odd{% else %}even{% endif %}">
-            <div class="image">
-              <img alt="blog-image" src={{ post.image }}>
-              <div class="image-overlay"></div>
-            </div>
-            <div class="content">
-              <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-
-              <h6><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
-              <p>{{ post.description }}</p>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
-            </div>
-          </div>
+          <li style="margin-top: 15px">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
           {% endfor %}
-        </div>
-      </div>
-    </div>
+      </ul>
   </div>
 </section>
