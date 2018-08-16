@@ -7,8 +7,6 @@ image: images/coinfloor_logo.png
 description: "My reasoning for taking a step back from Coinfloor."
 ---
 
-![post-image]
-
 Many people have asked me why I decided to take a step back from Coinfloor. As I head into new projects, I decided to publish this post to outline my reasoning. 
 
 #### For context: 

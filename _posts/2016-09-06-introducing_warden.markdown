@@ -7,8 +7,6 @@ image: images/warden_icon.png
 description: "Introducing Warden, my next startup."
 ---
 
-![post-image]
-
 Hello dear friends,
 
 I am happy and thrilled to unveil my next project and the focus of (in all likelihood) the next 8 years of my life.
