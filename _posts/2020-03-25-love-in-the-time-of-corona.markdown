@@ -3,6 +3,7 @@ layout: post
 title:  "Love in the Time of Corona"
 date:   2020-03-25 12:00:00
 categories: blog
+image: images/love_in_the_time_of_corona.png
 description: "Reflections on our future after the health crisis."
 ---
 
